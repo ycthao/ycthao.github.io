@@ -1,30 +1,75 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yeem Chij Thao's Biography</title>
+
+    <!-- Website's name -->
+    <title>Biography</title>
+
+    <!-- Calling bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Adding my own css stylesheet -->
+    <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
+
 <body>
-    <h1>
-        <strong>Activity:</strong> Basic Student Bio
-    </h1>
-    <hr></hr>
+    <!-- Navigation bar with name and working nav links -->
+    <nav class="navbar navbar-dark">
+        <span class="navbar-brand mb-0 h1">Yeem Chij Thao</span>
 
-    <h2>Student Bio</h2>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="index.html">About</a>
+            </li>
+        </ul>
+    </nav>
 
-    <h3>Yeem Chij Thao</h3>
+    <!-- main contain of webpage -->
+    <section class="container">
 
-    <img src="https://via.placeholder.com/200" alt="Yeem Chij Thao" />
-    <p>Currently taking a Coding Boot Camp to learn how to code.  After years of changing jobs left and right, I decided to give boot camp a try and commit my next six months to coding.</p>
+        <!-- site name displayed on the page -->
+        <div class="rowHeader">
+            <div class="col-lg-12">
+                <h1>About me</h1>
+            </div>
+        </div>
 
-    <h3>Contact Info</h3>
+        <div class="row" style="max-width: 100%;">
 
-    <ul>
-        <li><strong>Email:</strong> <a href="mailto:yc.vangsouathao@hotmail.com">yc.vangsouathao@hotmail.com</a></li>
-        <li><strong>GitHub:</strong> <a href="https://github.com/ycthao" target="_blank">ycthao</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
-    </ul>
+            <div class="row no-gutters">
+                <!-- Left column where profile picture is located -->
+                <div class="col-md-4">
+                    <img src="Images/Profilepicture.PNG" class="card-img" alt="Yeem Chij Thao's profile picture">
+                </div>
+
+                <!-- Right column where biography text is -->
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p class="card-text">I'm Yeem Chij Thao, also known as Steve, and I'm currently taking a coding
+                            boot camp in hope to learn new skills and land a better job.</p>
+                        <p class="card-text">I have no professional experience in coding. I just have some basic coding
+                            knowledge from the videos I've watched on YouTube.</p>
+                        <p class="card-text">As I further educate myself either through the boot camp or on my own time,
+                            I'd add additional content of what I know and learn in my portofolio.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
 
 </body>
+
 </html>
