@@ -17,13 +17,13 @@ Must include:
 ## Portfolio link's ##
 
 Main page:
-https://ycthao.github.io/ResponsivePortfolio/
+https://ycthao.github.io/
 
 Contact page:
-https://ycthao.github.io/ResponsivePortfolio/contact.html
+https://ycthao.github.io/contact.html
 
 Portfolio.html
-https://ycthao.github.io/ResponsivePortfolio/portfolio.html
+https://ycthao.github.io/portfolio.html
 
 ## Screenshot ##
 
