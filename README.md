@@ -31,5 +31,8 @@ https://ycthao.github.io/ResponsivePortfolio/portfolio.html
 ![image](https://user-images.githubusercontent.com/71569747/95668747-a1c6c100-0b3d-11eb-9245-d6c4a0ddc17f.png)
 ![image](https://user-images.githubusercontent.com/71569747/95668750-b2773700-0b3d-11eb-9ba4-d799130e4262.png)
 
+## Technology ##
+Uses: HTML, CSS
+
 ## Author ##
 Yeem Chij Thao
